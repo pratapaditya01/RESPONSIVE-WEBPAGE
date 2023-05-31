@@ -1,0 +1,176 @@
+.navbar {
+    width: 100%;
+    background-color: #f9f5f5;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 1.0rem;
+    color: rgb(53, 51, 51);
+    text-decoration: none;
+    font-size: 2.0rem;
+  }
+
+
+  .slider-containerr {
+    overflow: hidden;
+    margin-top: 1.0rem;
+    border-radius: 2.0rem ;
+    background-color: rgb(89, 40, 40);
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    padding: 2.0rem;
+    /* background-color: #f2f2f2; */
+    color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  body{
+    padding: 0;
+    margin: 0;
+ }
+ .slider-container{
+     position: relative;
+     overflow-x: hidden;
+     height: 20.0rem;
+     margin-top: 1.0rem;
+     /* border: 4px; */
+     /* background-color: #3f3a3a; */
+
+     
+ }
+ .slider-width{
+     position: absolute;
+     display: flex;
+     /* align-items: start; */
+     /* justify-content: start */
+     left: 0;
+     top: 0;
+     transition: 0.4s ease-in-out;
+     border-width: .5rem;
+     border-color: #131313;
+     cursor: pointer;
+ }
+ .item{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: .5rem;
+     width: 30.0rem;
+     height: 19.0rem;
+     background: rgb(214, 223, 220);
+     margin: 0 1.0rem;
+     color: #131313;
+     text-align: center;
+     font-size: 3.0rem;
+     font-weight: 0;
+     border-radius: 2.0rem;
+ }
+ .btn{
+    background: rgb(245 24 24);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 2.0rem;
+    margin-top: 2.0rem;
+    padding: .6rem 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+ }
+ .btn:nth-child(2){
+    margin-left: -7.4rem;
+ }
+
+
+ .containerrr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .trending,
+  .new-players {
+    width: 10.0rem;
+    height: 5.0rem;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5rem;
+    border-radius: 2.0rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .players-container {
+    
+    flex-wrap: wrap;
+  }
+  
+  .player {
+    width: 100%;
+    height: 5.0rem;
+    background-color: #f2f2f2;
+    margin: 1.0rem;
+    padding: 1.0rem;
+  }
+  
+  .player-name {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .player-team {
+    margin: .5rem 0 0;
+    font-size: 1.4rem;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #f9f5f5;
+    height: 5.0rem;
+
+  }
+  @media(max-width :998px){
+    html {
+      font-size: 55%;
+    }
+  }
+  @media(max-width :768px){
+    html {
+      font-size: 45%;
+    }
+  }
+  /* html{
+    font-size:  62.5%;
+  } */
+
+  
+
+
+  
+  
+
+  
+
+  
